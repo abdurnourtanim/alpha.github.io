@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpha</title>
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="home">
+        <!-- navbar-section -->
+        <nav class="navbar navbar-expand-md navbar-dark" uk-sticky="top: 260; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+                <a href="#home" class="navbar-brand text-uppercase d-none d-md-block">Alpha</a>
+                <button class="navbar-toggler navbar-toggler-left" type="button" data-target="#mobileMenu" data-toggle="collapse"><span class="navbar-toggler-icon nav-icon"></span></button>
+                <div id="mobileMenu" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <div class="dropdown">
+                            <a class="nav-link dropdown-toggle" type="button" data-toggle="dropdown">Layouts
+                            <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">HTML</a></li>
+                                <li class="dropdown-item"><a href="#">CSS</a></li>
+                                <li class="dropdown-item"><a href="#">JavaScript</a></li>
+                            </ul>
+                        </div> -->
+                        <a href="contact.html" class="nav-link">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <!-- <a href="#" class="nav-link text-capitalize px-3 menu-singup text-white">sing up</a> -->
+                        <a class="nav-link text-capitalize px-3 menu-singup text-white" data-toggle="modal" data-target="#contactModal">sing in</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="main-home mt-5 pt-0 pt-md-5">
+            <div class="container">
+                <div class="row text-white text-center">
+                    <div class="col-sm-12">
+                        <h1 class="display-2 text-white">Alpha</h1>
+                        <p class="lead home-paragraph mt-4">Another fine responsive site template freebie by HTML5 UP.</p>
+                        <div class="form-group">
+                            <a href="" class="btn px-5 mt-3 mx-3 home-singup"  data-toggle="modal" data-target="#contactModal">Sing In</a>
+                            <a href="#services" class="btn px-5 mt-3 mx-3 home-learnmore">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- modal box start -->
+    <div class="modal" id="contactModal">
+        <div class="container">
+            <div class="modal-dialog">
+                <div class="modal-content bg-light">
+                    <div class="modal-header">
+                        <h3 class="text-dark">Sing In</h3>
+                        <button class="close text-dark" data-dismiss="modal">&times;</button>
+                    </div>
+                    <div class="modal-body">
+                        <form action="" class="text-dark">
+                            <div class="form-group">
+                                <label for="email">Enter Email</label>
+                                <input type="email" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Enter Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <a href="#" class="btn btn-success btn-block mt-4">Sing In</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal box end -->
+    <!-- services section  -->
+    <section id="services" class="py-5">
+        <div class="services-title py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 text-center m-auto">
+                        <h2>Introducing the ultimate mobile app for doing stuff with your phone</h2>
+                        <hr>
+                        <p class="lead">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare adipiscing nunc adipiscing. Condimentum turpis massa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="features-box">
+            <div class="container">
+                <div class="row features-row-one text-center">
+                    <div class="col-md-6 content-box">
+                        <i class="fas fa-chart-pie one"></i>
+                        <h2 class="mt-4 mb-3">Magna etiam</h2>
+                        <p class="text-muted px-3">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                    </div>
+                    <div class="col-md-6 content-box">
+                        <i class="fas fa-globe two"></i>
+                        <h2 class="mt-4 mb-3">Ipsum dolor</h2>
+                        <p class="text-muted px-3">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                    </div>
+                </div>
+                <hr class="d-none d-md-block">
+                <div class="row text-center mt-0 mt-md-3">
+                    <div class="col-md-6 content-box">
+                        <i class="fas fa-stopwatch three"></i>
+                        <h2 class="mt-4 mb-3">Sed feugiat</h2>
+                        <p class="text-muted px-3">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                    </div>
+                    <div class="col-md-6 content-box">
+                        <i class="fas fa-sticky-note four"></i>
+                        <h2 class="mt-4 mb-3">Enim phasellus</h2>
+                        <p class="text-muted px-3">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="learn-more-box">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-5 main-box text-center mx-4">
+                        <h3 class="mt-5 mb-3">Sed lorem adipiscing</h3>
+                        <p class="text-muted">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <a href="#" class="btn btn-outline-info mt-3 mb-5">Learn More</a>
+                    </div>
+                    <div class="col-md-5 main-box text-center mx-4">
+                        <h3 class="mt-5 mb-3">Sed lorem adipiscing</h3>
+                        <p class="text-muted">Integer volutpat ante et accumsan commophasellus sed aliquam feugiat lorem aliquet ut enim rutrum phasellus iaculis accumsan dolore magna aliquam veroeros.</p>
+                        <a href="#" class="btn btn-outline-info mt-3 mb-5">Learn More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-md-8">
+                    <h2>Sign up for beta access</h2>
+                    <p class="lead">Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc.</p>
+                    <div class="input-group">
+                        <input type="email" id="singUp" class="form-control" placeholder="Email Address">
+                        <a href="" class="btn">Sing Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <footer class="py-3">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col">
+                    <span class="text-muted m-0 mr-0 mr-sm-5 d-sm-inline d-block one">© Untitled. All rights reserved.</span>
+                    <span class="text-muted m-0 ml-0 ml-sm-0 d-sm-inline d-block">Design: <a href="https://web.facebook.com/profile.php?id=100040656737417" class="designer-name">Abdur Nur Tanim</a></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
